@@ -1,0 +1,14 @@
+
+Options -MultiViews
+
+RewriteEngine On
+
+RewriteBase /paroquia_prototipo/
+
+# Não redireciona arquivos e pastas existentes
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Encaminha as demais URLs para o index.php
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

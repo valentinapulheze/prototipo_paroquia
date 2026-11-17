@@ -1,0 +1,22 @@
+.avisos{max-width:760px;margin:0 auto;padding:20px 16px}
+.avisos-topo{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap}
+.btn{background:##0D4D8B;color:#fff;border:0;border-radius:8px;padding:9px 16px;text-decoration:none;cursor:pointer;font:inherit;display:inline-block}
+.btn:hover{background:##0D4D8B}
+.aviso{background:#fff;border:1px solid #e6e0d8;border-left:6px solid #7b8794;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.aviso.destaque{background:#fffaf0}
+.cat-missa{border-left-color:#7b2d3b}
+.cat-evento{border-left-color:#c9962b}
+.cat-pastoral{border-left-color:#2f7d5b}
+.cat-geral{border-left-color:#3b6fb6}
+.aviso-tag{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#6b6258}
+.aviso h3{margin:4px 0 6px}
+.aviso p{margin:0 0 10px}
+.aviso-meta{display:flex;justify-content:space-between;align-items:center;color:#7a7268;font-size:.82rem;gap:10px;flex-wrap:wrap}
+.aviso-acoes{display:flex;gap:14px;align-items:center}
+.aviso-acoes form{margin:0}
+.link-del{background:none;border:0;color:#c0392b;cursor:pointer;font:inherit;padding:0}
+.aviso-form{display:grid;gap:14px}
+.aviso-form label{display:grid;gap:4px;font-weight:600}
+.aviso-form label.check{display:flex;gap:8px;align-items:center;font-weight:400}
+.aviso-form input[type=text],.aviso-form input[type=date],.aviso-form textarea,.aviso-form select{width:100%;padding:9px;border:1px solid #cfc8bd;border-radius:8px;font:inherit}
+.avisos-vazio{text-align:center;color:#7a7268;padding:30px 0}

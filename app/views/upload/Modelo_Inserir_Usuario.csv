@@ -1,0 +1,4 @@
+﻿Nome;Email;Senha;Ativo;Tipo_Acesso;Nome_Responsavel;Whatsapp;Email_Responsavel
+Aluno1 da Silva;aluno1@example.com.br;123456;1;1;Maria da Silva;(18)99999-9999;aaaa@example.com.br
+Aluno2 da Silva;aluno2@example.com.br;123456;1;1;Maria da Silva;(18)99999-9999;bbbb@example.com.br
+Aluno3 da Silva;aluno3@example.com.br;123456;1;1;Maria da Silva;(18)99999-9999;cccc@example.com.br
